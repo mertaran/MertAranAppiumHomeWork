@@ -1,0 +1,50 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 719milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 719"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61537"}
+{"logLevel":"info","message":"Listening on port:61537"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitTime' and 'StepImplementation.waitTime'"}
+{"logLevel":"debug","message":"Found {} second wait in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByid' and 'StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementById' and 'StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Found {} click with id's element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByid' and 'StepImplementation.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} click with id's element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByxpath' and 'StepImplementation.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} click with xPath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.ScrollRandomPos' and 'StepImplementation.ScrollRandomPos'"}
+{"logLevel":"debug","message":"Found scroll down in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SendkeyElementByid' and 'StepImplementation.SendkeyElementByid'"}
+{"logLevel":"debug","message":"Found {} with id element {} write value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.findAllProducts' and 'StepImplementation.findAllProducts'"}
+{"logLevel":"debug","message":"Found {} choose random product in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pageCurrentTexts' and 'StepImplementation.pageCurrentTexts'"}
+{"logLevel":"debug","message":"Found With xPath {} find element and {} with check. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.addToBasket' and 'StepImplementation.addToBasket'"}
+{"logLevel":"debug","message":"Found Add to basket in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Pages.ProductDetail.isProductDetail' and 'Pages.ProductDetail.isProductDetail'"}
+{"logLevel":"debug","message":"Found Is product page detail true in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Pages.LoginPage.checkLogin' and 'Pages.LoginPage.checkLogin'"}
+{"logLevel":"debug","message":"Found is login page correct in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} click with xPath : public void clickElementByxpath(String Key)"}
+{"logLevel":"debug","message":"\tWith xPath {} find element and {} with check. : public void pageCurrentTexts(String by, String text)"}
+{"logLevel":"debug","message":"\tIs product page detail true : public void isProductDetail()"}
+{"logLevel":"debug","message":"\tscroll down : public void ScrollRandomPos()"}
+{"logLevel":"debug","message":"\t{} second wait : public void waitTime(ınt time) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} click with id's element : public void clickElementByid(String Key)"}
+{"logLevel":"debug","message":"\t{} choose random product : public void findAllProducts(String Key)"}
+{"logLevel":"debug","message":"\tAdd to basket : public void addToBasket()"}
+{"logLevel":"debug","message":"\tis login page correct : public void checkLogin()"}
+{"logLevel":"debug","message":"\t{} with id element {} write value : public void SendkeyElementByid(String Key, String keywordc)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

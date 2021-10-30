@@ -1,0 +1,48 @@
+# Shopping Start
+*is login page correct
+* With xPath "//android.widget.TextView[contains(@text,'Kategoriler')]" find element and "Kategoriler" with check.
+* "2" second wait
+* With xPath "//android.widget.TextView[contains(@text,'ALIŞVERİŞE BAŞLA')]" find element and "ALIŞVERİŞE BAŞLA" with check.
+* "2" second wait
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" click with id's element
+* "2" second wait
+* "com.ozdilek.ozdilekteyim:id/nav_categories" click with id's element
+* "2" second wait
+* With xPath "//android.widget.TextView[contains(@text,'Kategoriler')]" find element and "Kategoriler" with check.
+* "2" second wait
+# Click woman categorys and go to pant page
+* "//android.widget.RelativeLayout[@index=1]" click with xPath
+* "2" second wait
+* "//android.widget.TextView[@text='Pantolon']" click with xPath
+* "2" second wait
+# Scroll to page two times
+* scroll down
+* "2" second wait
+* scroll down
+* "2" second wait
+# Select random product
+* "//android.widget.ImageView[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" choose random product
+* "2" second wait
+* Is product page detail true
+* "2" second wait
+# Click Fav button and go to login page
+* "com.ozdilek.ozdilekteyim:id/imgFav" click with id's element
+* "2" second wait
+* "com.ozdilek.ozdilekteyim:id/etEposta" with id element "absintthelast@hotmail.com" write value
+* "2" second wait
+* "com.ozdilek.ozdilekteyim:id/etPassword" with id element "merttestinium" write value
+* "2" second wait
+* "com.ozdilek.ozdilekteyim:id/btnLogin" click with id's element
+* "2" second wait
+# Click two times back icon
+* "com.ozdilek.ozdilekteyim:id/ivBack" click with id's element
+* "1" second wait
+* "com.ozdilek.ozdilekteyim:id/ivBack" click with id's element
+* "1" second wait
+# Select random product and add to basket
+* "//android.widget.ImageView[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" choose random product
+* "2" second wait
+* "//android.widget.RelativeLayout/android.widget.TextView[@text=38]" click with xPath
+* "2" second wait
+* Add to basket
+* "2" second wait

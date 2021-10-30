@@ -1,0 +1,48 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 791milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 791"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60954"}
+{"logLevel":"info","message":"Listening on port:60954"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitTime' and 'StepImplementation.waitTime'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementById' and 'StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Found {} id'li elemente tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByid' and 'StepImplementation.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByxpath' and 'StepImplementation.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SendkeyElementByxpath' and 'StepImplementation.SendkeyElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SendkeyElementByid' and 'StepImplementation.SendkeyElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pageCurrentTexts' and 'StepImplementation.pageCurrentTexts'"}
+{"logLevel":"debug","message":"Found XPATH ile {} ile elementi bul ve {} ile kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SearchBook' and 'StepImplementation.SearchBook'"}
+{"logLevel":"debug","message":"Found Kitap arama alanına roman değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.pageCurrentText' and 'StepImplementation.pageCurrentText'"}
+{"logLevel":"debug","message":"Found ID ile {} ile elementi bul ve {} ile kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} xpath'li elemente {} değerini yaz : public void SendkeyElementByxpath(String Key, String keywordc)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitTime(ınt time) throws InterruptedException"}
+{"logLevel":"debug","message":"\tID ile {} ile elementi bul ve {} ile kontrol et. : public void pageCurrentText(String by, String text)"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickElementByxpath(String Key)"}
+{"logLevel":"debug","message":"\t{} id'li elemente tikla : public void clickElementById(String Key)"}
+{"logLevel":"debug","message":"\tKitap arama alanına roman değerini yaz : public void SearchBook()"}
+{"logLevel":"debug","message":"\tXPATH ile {} ile elementi bul ve {} ile kontrol et. : public void pageCurrentTexts(String by, String text)"}
+{"logLevel":"debug","message":"\t{} İd'li elemente tıkla : public void clickElementByid(String Key)"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void SendkeyElementByid(String Key, String keywordc)"}
+Android  testi başlıyor
+Eki 27, 2021 2:51:32 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'XPATH ile {} ile elementi bul ve {} ile kontrol et.' using 'class StepImplementation.pageCurrentTexts"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
