@@ -1,1 +1,0 @@
-var index = {"Tags":{},"Specs":{"Appium homework Mert":["specs/example.html"]}};
